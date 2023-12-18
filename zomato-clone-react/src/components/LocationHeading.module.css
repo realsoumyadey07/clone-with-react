@@ -2,6 +2,7 @@
      width: 100%;
      display: flex;
      flex-direction: column;
+     margin: 30px  0;
 }
 .locationHeading{
      font-weight: 400;
@@ -11,9 +12,10 @@
      gap: 10px;
 }
 .para{
-     font-size: 22px;
-     width: 60%;
+     font-size: 20px;
+     font-weight: 100;
+     max-width: 50rem;
      margin: auto;
      text-align: center;
-     color: #898989;
+     color: rgb(105, 105, 105);
 }
