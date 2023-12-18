@@ -1,0 +1,19 @@
+.center{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+}
+.locationHeading{
+     font-weight: 400;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+}
+.para{
+     font-size: 22px;
+     width: 60%;
+     margin: auto;
+     text-align: center;
+     color: #898989;
+}
