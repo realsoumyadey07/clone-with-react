@@ -12,10 +12,19 @@
      gap: 10px;
 }
 .para{
+     padding: 10px;
      font-size: 20px;
      font-weight: 100;
      max-width: 50rem;
      margin: auto;
      text-align: center;
      color: rgb(105, 105, 105);
+}
+.img{
+     width: 50px;
+}
+@media (max-width:450px){
+     .locationHeading{
+          flex-direction: column;
+     }
 }

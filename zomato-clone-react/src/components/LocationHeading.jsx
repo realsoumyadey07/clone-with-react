@@ -5,11 +5,12 @@ function LocationHeading() {
   return (
     <div className={`${style.center}`}>
       <h1 className={`${style.locationHeading}`}>
-        Popular Location in{" "}
+        Popular Location in
         <img
+          className={`${style.img}`}
           src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp"
           alt="india"
-        />{" "}
+        />
         India
       </h1>
       <p className={`${style.para}`}>

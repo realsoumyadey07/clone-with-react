@@ -1,6 +1,8 @@
 import React from "react";
 import "../App.css";
 import style from "../components/Navbar.module.css";
+import { FaRegUser } from "react-icons/fa6";
+
 
 function Navbar() {
   return (
@@ -11,10 +13,8 @@ function Navbar() {
           <div>Add restaurant</div>
           <div>Log in</div>
           <div>Sign up</div>
-          <div>
-            <i></i>
-          </div>
         </div>
+        <FaRegUser className={`${style.userIcon}`}/>
       </div>
     </>
   );

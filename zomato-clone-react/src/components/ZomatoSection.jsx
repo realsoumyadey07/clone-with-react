@@ -9,7 +9,7 @@ function ZomatoSection() {
         <Navbar />
         <h1 className={`${style.zomato}`}>ZOMATO</h1>
         <p className={`${style.para}`}>
-          Find the best restaurants, cafes and bars in India
+          Find the best restaurants, cafes<br/> and bars in India
         </p>
       </div>
     </div>
